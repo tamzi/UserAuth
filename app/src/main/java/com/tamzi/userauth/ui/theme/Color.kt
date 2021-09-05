@@ -18,4 +18,5 @@ val gray = Color(0xFFEFEFEF)
 val deepGray = Color(0xFFE6E4E6)
 val darkGray = Color( 0xFF83829A)
 val lightGray = Color(0xFFF6F6F6)
-val buttonRed = Color(0xFFFF7777CC);
+val buttonRed = Color(0xFFFF7777CC)
+

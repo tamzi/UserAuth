@@ -37,8 +37,8 @@ fun UserAuthTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composab
 
     MaterialTheme(
         colors = colors,
-        typography = Typography,
-        shapes = Shapes,
+        typography = AuthTypography,
+        shapes = shapes,
         content = content
     )
 }
