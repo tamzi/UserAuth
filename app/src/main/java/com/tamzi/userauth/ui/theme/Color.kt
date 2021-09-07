@@ -44,4 +44,3 @@ val limeGreenish = Color(0xFF4ABB00)
 fun Colors.compositedOnSurface(alpha: Float): Color {
     return onSurface.copy(alpha = alpha).compositeOver(surface)
 }
-

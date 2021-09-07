@@ -19,4 +19,3 @@ private val IndigoThemeDark = lightColors(
     onSecondary = white,
     surface = darkGray,
 )
-
