@@ -124,5 +124,3 @@ fun typographyFromDefaults(
         button = defaults.button.merge(button),
     )
 }
-
-
