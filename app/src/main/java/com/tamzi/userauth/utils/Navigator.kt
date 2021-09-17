@@ -1,13 +1,13 @@
 package com.tamzi.userauth.utils
 
 import FoodAvailableScreen
+import LoginScreen
 import RegistrationScreen
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.tamzi.userauth.screens.ForgotPasswordScreen
-import com.tamzi.userauth.screens.LoginScreen
 import com.tamzi.userauth.screens.OnBoardingScreen
 import com.tamzi.userauth.screens.SplashScreen
 
