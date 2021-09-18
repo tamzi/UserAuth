@@ -1,5 +1,6 @@
 package com.tamzi.userauth
 
+import IndigoTheme
 import UserAuthTheme
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,7 +16,9 @@ class MainActivity : ComponentActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
 
         setContent {
-
+            IndigoTheme {
+                UserAuthApp()
+            }
 
         }
     }
