@@ -1,9 +1,10 @@
 package com.tamzi.userauth.screens
 
+
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavController
+import androidx.core.view.WindowCompat
 
 @Composable
-fun OnBoardingScreen(navController: NavController){
+fun UserAuthApp() {
 
 }
