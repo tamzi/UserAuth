@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">UserAuth</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_search">Search</string>
+    <string name="title_app_bar_title">Epic World</string>
+    <string name="title_filter_results">Filter Results</string>
+    <string name="message_ok">OK</string>
+    <string name="message_error">There was an error. Please try again later</string>
+    <string name="button_back">Back Button</string>
+
 </resources>
