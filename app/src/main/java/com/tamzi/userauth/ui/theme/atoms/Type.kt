@@ -32,7 +32,7 @@ val AuthTypography = typographyFromDefaults(
         h1 = TextStyle(
             fontFamily = Gilroy,
             fontWeight = FontWeight.W900,
-            fontSize = 33.sp
+            fontSize = 33.sp,
 
         ),
         h2 = TextStyle(
