@@ -1,4 +1,4 @@
-package com.tamzi.userauth.screens
+package com.tamzi.userauth.ui.screens
 
 import android.view.animation.OvershootInterpolator
 import androidx.compose.animation.core.Animatable
