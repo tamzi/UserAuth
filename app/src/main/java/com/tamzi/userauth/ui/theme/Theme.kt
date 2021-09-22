@@ -1,44 +1,98 @@
-package com.tamzi.userauth.ui.theme
-
+import UserAuthTheme.typography
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.darkColors
-import androidx.compose.material.lightColors
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.unit.dp
+import com.tamzi.userauth.ui.theme.*
+import com.tamzi.userauth.ui.theme.utils.Elevations
+import com.tamzi.userauth.ui.theme.utils.LocalElevations
 
-private val DarkColorPalette = darkColors(
-    primary = Purple200,
-    primaryVariant = Purple700,
-    secondary = Teal200
+private val IndigoThemeLight = lightColors(
+    primary = indigo,
+    primaryVariant = lightIndigo,
+    onPrimary = black,
+    secondary = lighterIndigo,
+    secondaryVariant = darkBluish,
+    onSecondary = white,
+)
+private val IndigoThemeDark = lightColors(
+    primary = gray,
+    secondary = cream,
+    onSecondary = white,
+    surface = darkGray,
 )
 
-private val LightColorPalette = lightColors(
-    primary = Purple500,
-    primaryVariant = Purple700,
-    secondary = Teal200
 
-    /* Other default colors to override
-    background = Color.White,
-    surface = Color.White,
-    onPrimary = Color.White,
-    onSecondary = Color.Black,
-    onBackground = Color.Black,
-    onSurface = Color.Black,
-    */
-)
 
 @Composable
-fun UserAuthTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
+fun IndigoTheme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    content: @Composable () -> Unit
+) {
     val colors = if (darkTheme) {
-        DarkColorPalette
+        IndigoThemeDark
     } else {
-        LightColorPalette
+        IndigoThemeLight
+    }
+    UserAuthTheme(darkTheme, colors, content)
+}
+
+private val LightElevation = Elevations ()
+
+private val DarkElevation = Elevations (card = 2.dp)
+
+
+
+
+/*
+    UserAuthTheme:
+    This is a custom theme but is extended from material design.
+
+    It consists of indigo dark and light
+ */
+
+@Composable
+private fun UserAuthTheme(
+    darkTheme: Boolean,
+    colors: Colors,
+    content: @Composable () -> Unit
+) {
+    val elevation = if (darkTheme) DarkElevation else LightElevation
+    CompositionLocalProvider(
+        LocalElevations provides elevation,
+    ) {
+        MaterialTheme(
+            colors = colors,
+            typography = typography,
+            shapes = shapes,
+            content = content
+        )
+
     }
 
-    MaterialTheme(
-        colors = colors,
-        typography = AuthTypography,
-        shapes = shapes,
-        content = content
-    )
+}
+
+
+
+object UserAuthTheme {
+
+    val colors: Colors
+        @Composable
+        get() = MaterialTheme.colors
+
+
+    val typography: Typography
+        @Composable
+        get() = MaterialTheme.typography
+
+    val shapes: Shapes
+        @Composable
+        get() = MaterialTheme.shapes
+
+    val elevations: Elevations
+        @Composable
+        get() = LocalElevations.current
+
+
 }
