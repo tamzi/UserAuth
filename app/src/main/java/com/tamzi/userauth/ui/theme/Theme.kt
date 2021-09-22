@@ -5,6 +5,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.unit.dp
 import com.tamzi.userauth.ui.theme.*
+import com.tamzi.userauth.ui.theme.utils.Elevations
+import com.tamzi.userauth.ui.theme.utils.LocalElevations
 
 private val IndigoThemeLight = lightColors(
     primary = indigo,
