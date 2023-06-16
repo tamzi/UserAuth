@@ -1,2 +1,2 @@
 # UserAuth
-Login and registrarion with jetpack compose
+Login and registration with jetpack compose
