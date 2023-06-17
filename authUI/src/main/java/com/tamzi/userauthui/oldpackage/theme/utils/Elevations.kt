@@ -1,4 +1,4 @@
-package com.tamzi.userauth.ui.theme.utils
+package com.tamzi.userauthui.oldpackage.theme.utils
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf

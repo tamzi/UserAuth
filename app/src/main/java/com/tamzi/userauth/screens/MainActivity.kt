@@ -1,4 +1,4 @@
-package com.tamzi.userauth.ui.screens
+package com.tamzi.userauth.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

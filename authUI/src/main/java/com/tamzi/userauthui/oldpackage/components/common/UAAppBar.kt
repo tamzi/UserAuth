@@ -1,10 +1,12 @@
-package com.tamzi.userauth.ui.components
+package com.tamzi.userauthui.components.common
 
+/*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+*/
 
 
-@Composable
+/*@Composable
 fun AuthAppBar(){
 
 }
@@ -13,4 +15,4 @@ fun AuthAppBar(){
 @Composable
 fun AuthAppBarPrev(){
 
-}
+}*/

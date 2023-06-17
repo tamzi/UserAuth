@@ -1,9 +1,9 @@
-package com.tamzi.userauth.ui.screens
+package com.tamzi.userauth.screens
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
 
 @Composable
-fun FoodAvailableScreen(navController: NavController){
+fun OnBoardingScreen(navController: NavController){
 
 }

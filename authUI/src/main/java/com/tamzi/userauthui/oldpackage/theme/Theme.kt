@@ -1,3 +1,4 @@
+/*
 import UserAuthTheme.typography
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.*
@@ -5,8 +6,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.unit.dp
 import com.tamzi.userauth.ui.theme.*
-import com.tamzi.userauth.ui.theme.utils.Elevations
-import com.tamzi.userauth.ui.theme.utils.LocalElevations
+import com.tamzi.userauthui.oldpackage.theme.utils.Elevations
+import com.tamzi.userauthui.oldpackage.theme.utils.LocalElevations
 
 private val IndigoThemeLight = lightColors(
     primary = indigo,
@@ -45,12 +46,14 @@ private val DarkElevation = Elevations (card = 2.dp)
 
 
 
+*/
 /*
     UserAuthTheme:
     This is a custom theme but is extended from material design.
 
     It consists of indigo dark and light
- */
+ *//*
+
 
 @Composable
 private fun UserAuthTheme(
@@ -96,3 +99,4 @@ object UserAuthTheme {
 
 
 }
+*/

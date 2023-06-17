@@ -1,15 +1,15 @@
 package com.tamzi.userauth.utils
 
-import com.tamzi.userauth.ui.screens.FoodAvailableScreen
-import com.tamzi.userauth.ui.screens.LoginScreen
-import com.tamzi.userauth.ui.screens.RegistrationScreen
+import com.tamzi.userauth.screens.FoodAvailableScreen
+import com.tamzi.userauth.screens.LoginScreen
+import com.tamzi.userauth.screens.RegistrationScreen
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.tamzi.userauth.ui.screens.ForgotPasswordScreen
-import com.tamzi.userauth.ui.screens.OnBoardingScreen
-import com.tamzi.userauth.ui.screens.SplashScreen
+import com.tamzi.userauth.screens.ForgotPasswordScreen
+import com.tamzi.userauth.screens.OnBoardingScreen
+import com.tamzi.userauth.screens.SplashScreen
 
 @Composable
 fun Navigator(){
