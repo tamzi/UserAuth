@@ -10,23 +10,19 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
-import com.tamzi.sky.atoms.type.SkyTypography
-import com.tamzi.userauthui.atoms.color.amber
-import com.tamzi.userauthui.atoms.color.black
-import com.tamzi.userauthui.atoms.color.blue
-import com.tamzi.userauthui.atoms.color.indigo
-import com.tamzi.userauthui.atoms.color.warmishGreen
-import com.tamzi.userauthui.atoms.color.white
+import com.tamzi.userauthui.atoms.type.SkyTypography
+import com.tamzi.userauthui.atoms.color.*
+
 
 val DarkColorPalette = darkColorScheme(
-    primary = amber,
+    primary = creamy,
     secondary = blue,
     background = black,
 )
 
 val LightColorPalette = lightColorScheme(
     primary = indigo,
-    secondary = warmishGreen,
+    secondary = limeGreenish,
     background = white,
 
     /* Other default colors to override

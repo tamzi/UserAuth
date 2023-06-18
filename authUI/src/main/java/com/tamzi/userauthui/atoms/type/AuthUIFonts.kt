@@ -1,8 +1,9 @@
-package com.tamzi.sky.atoms.type
+package com.tamzi.userauthui.atoms.type
 
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
-import com.tamzi.sky.R
+import com.tamzi.userauthui.R
+
 
 /**
  * Sky typography:
